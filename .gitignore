@@ -1,0 +1,78 @@
+# .gitignore for DotNetComprehensiveGuide
+
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.docstates
+*.userprefs
+*.user
+*.suo
+*.sln.iml
+
+# Rider
+.idea/
+.idea_modules/
+*.sln.iml
+*.iml
+
+# Local environment
+.env
+.env.local
+appsettings.Development.json
+launchSettings.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Dependencies
+packages/
+.packages/
+node_modules/
+npm-debug.log
+
+# Test results
+TestResults/
+*.trx
+coverage/
+*.opencover.xml
+
+# IDE specific files
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.tmp
+.history/
+.vscode-extensions/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Ignore lock files in development
+package-lock.json
+yarn.lock
