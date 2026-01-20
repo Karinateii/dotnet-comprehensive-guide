@@ -438,7 +438,7 @@ for (int i = 0; i < array.Length; i++)  // Correct
 | `break` | Exit loop |
 | `continue` | Skip iteration |
 
-## Next Steps
+## Next Steps:
 
 You now understand:
 ✅ Conditional execution (if/switch)  
